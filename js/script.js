@@ -6,7 +6,7 @@ $(document).ready(function(){
        message="Good Morning";
 
    }
-   if(hour<=24){
+   if(hour>=24){
        message="Good Afternoon";
    }
    if(hour>=17){
