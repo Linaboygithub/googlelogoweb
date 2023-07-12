@@ -1,0 +1,46 @@
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 50px;
+}
+.center-col{display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+.center a{
+    text-decoration: none;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: small;
+    color: #2c3e50;
+}
+.profile{
+    width: 12%;
+    border-radius: 50%;
+}
+.heading{
+    color: #2c3e50;
+    font-family: 'Times New Roman', Times, serif;
+}
+.gap {
+    gap: 100px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+.center a:hover{
+    color: black;
+}
+.paragraph{
+    width: 70%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #34495e;
+}
+.image {
+    width: 20%;
+}
+.underline{
+    text-decoration: underline;
+}
